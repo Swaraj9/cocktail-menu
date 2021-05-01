@@ -1,0 +1,34 @@
+.ItemPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 500px;
+  width: 80%;
+  margin-bottom: 75px;
+  background-color: rgb(224, 224, 224);
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 20px;
+}
+
+#item-page-img {
+  height: 500px;
+  width: 500px;
+}
+
+h1,
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-weight: 400;
+}

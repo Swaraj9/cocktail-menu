@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.Item {
+  background-color: rgb(231, 231, 231);
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  flex-direction: column;
+  height: 475px;
+  width: 400px;
+  transition: background-color 0.75s, box-shadow 0.25s;
+}
+
+.Item:hover {
+  background-color: rgb(207, 207, 207);
+  box-shadow: 7px 7px 7px grey;
+}
+
+#thumbnail {
+  width: 400px;
+  height: 400px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+
+h3 {
+  font-weight: 400;
+  color: grey;
+}
+
+#title {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
