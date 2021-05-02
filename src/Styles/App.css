@@ -55,8 +55,8 @@ body {
 }
 
 .header {
-  background-color: whitesmoke;
-  height: 50px;
+  background-color: rgb(230, 230, 230);
+  height: 60px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -74,6 +74,10 @@ h1 {
   text-decoration: none;
   color: grey;
   font-size: 25px;
+}
+
+.link:hover {
+  opacity: 0.7;
 }
 
 #about-container {

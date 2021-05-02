@@ -14,12 +14,12 @@ const ItemPage = ({drinkList}) => {
         <div className = "ItemPage" id = "ItemPage">
             <img id = "item-page-img" src = {drinkObj.strDrinkThumb} alt = {drinkObj.strDrink}/>
             <div id = "info">
-                <h1>{drinkObj.strDrink}</h1>
-                <h2>{drinkObj.strCategory}</h2>
-                <h2>Type: {drinkObj.strAlcoholic}</h2>
-                <h2>Glass: {drinkObj.strGlass}</h2>
-                <h2>{drinkObj.strInstructions}</h2>
-                <h2>Ingredients: {ingredients.filter(d => d !== null).map((d, i) => { return `${d}, `})}</h2>
+                <h1>Name: {drinkObj.strDrink}</h1>
+                <h2 className = "Item-page-info-text"><strong>Category:</strong> {drinkObj.strCategory}</h2>
+                <h2 className = "Item-page-info-text"><strong>Type:</strong> {drinkObj.strAlcoholic}</h2>
+                <h2 className = "Item-page-info-text"><strong>Glass:</strong> {drinkObj.strGlass}</h2>
+                <h2 className = "Item-page-info-text"><strong>Instructions:</strong> {drinkObj.strInstructions}</h2>
+                <h2 className = "Item-page-info-text"><strong>Ingredients:</strong> {ingredients.filter(d => d !== null).map((d, i) => { return `${d}, `})}</h2>
             </div>
         </div>
     );
