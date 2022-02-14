@@ -1,5 +1,7 @@
-# Search Menu
+# Cocktail Menu
 
-## It is a website having a list of Items.
-## A search feature to find specific items.
-## A detailed view of selected item.
+### It is a website having a list of Items.
+### A search feature to find specific items.
+### A detailed view of selected item.
+### Items fetched from www.thecocktaildb.com
+
