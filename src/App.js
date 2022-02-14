@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename='/cocktail-menu'>
         <div className = "header">
           <Link to = "/" className = "link">Home</Link>
           <Link to = "/about" className = "link">About</Link>
